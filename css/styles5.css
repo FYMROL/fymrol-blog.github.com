@@ -1,0 +1,226 @@
+html {
+  font-size: 100%;
+}
+body {
+  font-size: 15px;
+  font-size: 1rem;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  color: #6998AB;
+  padding: 0;
+  /*  background-image: url(http://placeimg.com/1920/2160/tech);*/
+  /* background: url(..//img/v.webp); */
+  background-color: #000000e4;
+  background-size:cover;
+}
+.topspace {
+  margin-top: 40px;
+}
+#sub{
+  color: #096cff;
+  font-size: 30px;
+  position: relative;
+  top: -20px;
+}
+#pri{
+  color: #ffffff;
+  font-size: 50px;
+}
+#texto{
+  color: #ffffff;
+}
+#texto2{
+  color: #ffffff;
+  font-size: 34px;
+}
+#icono1{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	top: -15px;
+}
+#logo1{
+  width: 20%;
+  height: 210px;
+  top: -0px;
+  border-radius: 234px;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 4px solid rgb(77, 77, 255);
+}
+header{
+  top: -50px;
+}
+#head {
+  background: url(../img/R.gif);
+  background-size:cover;
+  padding: 30px 0 35px 0;
+  height: 595px;
+  top: 50px;
+  position: relative;
+
+}
+#head .title {
+  font-family: Alice, Georgia, serif;
+  font-size: 200px;
+  color: #002255;
+}
+#head .tag {
+  font-family: Alice, Georgia, serif;
+  display: block;
+  font-size: 123px;
+  line-height: 1.2em;
+  color: #096cff;
+  margin: 5px 0 0;
+  top: -50px;
+  position: relative;
+}
+#rol{
+  color: #6998AB;
+}
+.navbar{
+  background-color: #002255;
+  border-color: #000000;
+  position: fixed;
+}
+nav{
+  width: 100%;
+  top: 0px;
+  padding-inline: 350px;
+  margin: 0px 100px 0px 0px;
+  margin-top: 0px;
+  height: 52px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.dropdown{
+  color: #000000;
+}
+.p4 {
+  display: block;
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  border: 0 none;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+.p4 .img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  height: 345px;
+  position: relative;
+  background-size:cover;
+}
+.p4 .title {
+  text-transform: uppercase;
+  margin: 0 2em;
+  display: block;
+  text-indent: 0;
+}
+.p4 .cover {
+  position: absolute;
+  display: block;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4d4dff60;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 550ms;
+  -moz-transition-duration: 550ms;
+  -o-transition-duration: 550ms;
+  transition-duration: 550ms;
+}
+.p4 img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.p4:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.p4:hover .cover {
+  opacity: 1;
+}
+.details{
+  color: #371B58;
+}
+#opciones{
+  padding-inline: 200px;
+  color: #371B58;
+}
+.dropdown-menu{
+  background: #3578dd;
+}
+#footer {
+  background: #002255;
+  padding: 30px 0 0 0;
+  font-size: 12px;
+  color: #999;
+}
+#footer a {
+  color: #ccc;
+  }
+#footer a:hover {
+  color: #fff;
+}
+#footer h3.widget-title {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  color: #ccc;
+  margin: 0 0 20px;
+}
+#footerbajo {
+  background: #371B58;
+  padding: 15px 0;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+}
+#footerbajo a {
+    color: #aaa;
+}
+#footerbajo a:hover {
+  color: #fff;
+}
+#footerbajo p {
+  margin: 0;
+}
+.follow-me-icons {
+  font-size: 30px;
+}
+.follow-me-icons i {
+  float: left;
+  margin: 0 10px 0 0;
+  color: #000000;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1080px;
+  }
+}  

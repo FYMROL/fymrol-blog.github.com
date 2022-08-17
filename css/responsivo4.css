@@ -1,0 +1,139 @@
+@media screen and (min-width: 770px) and (max-width: 1250px){
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+html {
+  font-size: 100%;
+}
+body{
+  width: 100%;
+  position: relative;
+  font-size: 15px;
+  font-size: 1rem;
+  font-family: 'League Gothic', sans-serif;
+}
+#logo1{
+  position: relative;
+  width: 35%;
+  height: 300px;
+  top: 10px;
+}
+#icono2{
+  position: relative;
+  left: -40%;
+}
+.navbar{
+  background-color: #002255;
+  border-color: #000000;
+  position: fixed;
+}
+nav{
+  width: 100%;
+  top: 0px;
+  padding-inline: 10%;
+  height: 52px;
+}
+#head{
+  display: none;
+}
+.container{
+  width: 100%;
+}
+#finalf{
+  position: relative;
+  float: right;
+  top: 0px;
+}
+#finali{
+  position: relative;
+  float:center;
+}
+#footer{
+  position: relative;
+  display:inline-block;
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+  padding: 10px;
+  font-size: 45%;
+}
+#letras{
+  display: none;
+}
+.widget-title{
+  display: none;
+}
+#pri{
+  color: #ffffff;
+}
+.btn-action {
+  height: 23px;
+  width: 32%;
+  font-size: 45%;
+  position: relative;
+  left: -0%;
+}
+}
+@media screen and (min-width: 1px) and (max-width: 770px){
+  html {
+    font-size: 100%;
+  }
+  body{
+    width: 100%;
+    position: relative;
+    font-size: 15px;
+    font-size: 1rem;
+    font-family: 'League Gothic', sans-serif;
+    background-color: #00000004;
+  }
+  #pri{
+    color: #ffffff;
+  }
+  #titulo{
+    display: none;
+  }
+  #registrate{
+    width: 100%;
+    font-size: 30px;
+  }
+  #logo1{
+    position: relative;
+    width: 100px;
+    height: 90px;
+    top: -70px;
+    left: 10px;
+  }
+  nav{
+    display: none;
+  }
+#head{
+  display: none;
+}
+  .container{
+    width: 100%;
+  }
+  #finalf{
+    position: relative;
+    float: right;
+  }
+  #finali{
+    position: relative;
+    float:center;
+  }
+  #footer{
+    position: relative;
+    display:inline-block;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 10px;
+    font-size: 45%;
+  }
+.img{
+  margin:  40px 0px 0px 0px;
+}
+#letras{
+  display: none;
+}
+.widget-title{
+  display: none;
+}
+}
