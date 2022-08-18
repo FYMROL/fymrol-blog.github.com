@@ -12,10 +12,6 @@ body {
   background-color: #000000e4;
   background-size:cover;
 }
-header{
-  position: relative;
-  top: 50px;
-}
 .topspace {
   margin-top: 40px;
 }
@@ -47,7 +43,8 @@ header{
   border: 4px solid rgb(77, 77, 255);
 }
 header{
-  top: -50px;
+  position: relative;
+  top: 50px;
 }
 #head {
   background: url(../img/R.gif);
