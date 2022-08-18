@@ -12,6 +12,10 @@ body {
   background-color: #000000e4;
   background-size:cover;
 }
+header{
+  position: relative;
+  top: 50px;
+}
 .topspace {
   margin-top: 40px;
 }
